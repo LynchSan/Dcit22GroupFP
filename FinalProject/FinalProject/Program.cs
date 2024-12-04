@@ -9,9 +9,10 @@ namespace FinalProject
         {
 
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("WELCOME TO TESTING!");
-            Console.WriteLine();
+            /*Console.WriteLine("WELCOME TO TESTING!");
+            Console.WriteLine();*/
             Console.ForegroundColor = ConsoleColor.Green;
+            loginUI.userInterFace();
             await MainMenu();
         }
 
